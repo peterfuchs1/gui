@@ -9,6 +9,7 @@ class Dialog(QtGui.QDialog):
         dialog = Ui_Dialog()
         dialog.setupUi(self)
 
+
 if __name__ == '__main__':
     app = QtGui.QApplication(sys.argv)
     dialog = Dialog()
